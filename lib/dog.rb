@@ -1,6 +1,6 @@
 class Dog
   attr_accessor :name
-  @@all = [] #it is the storage container for each instance of
+  @@all || = [] #it is the storage container for each instance of
               #the Dog class
   def initialize(name)
     @name = name
