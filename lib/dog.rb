@@ -1,3 +1,5 @@
+binding.pry
+
 class Dog
   attr_accessor :name
   @@all = [] #it is the storage container for each instance of
@@ -12,8 +14,9 @@ class Dog
   end
 
   def self.print_all
-    @@all.each do |name|
-       puts Dog.name
+    @@all.each do |obj|
+      binding.pry
+       puts 
      end
   end
 
