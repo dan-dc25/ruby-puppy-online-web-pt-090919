@@ -4,6 +4,7 @@ class Dog
               #the Dog class
   def initialize(name)
     @name = name
+    save
   end
 
   def self.all
